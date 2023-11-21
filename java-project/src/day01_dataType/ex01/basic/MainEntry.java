@@ -1,4 +1,4 @@
-package day01_dataType.ex02.dataType;
+package day01_dataType.ex01.basic;
 
 public class MainEntry {
 	public static void main(String[] args) {	// 시작점
