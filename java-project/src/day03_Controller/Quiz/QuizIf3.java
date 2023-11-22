@@ -31,6 +31,16 @@ public class QuizIf3 {
 	double avg;
 	avg = (com + eng + kor) /3;
 
+	if ((com>100) || (kor>100) || (eng>100))
+	{
+		System.out.print("입력 오류 입니다.");
+	}
+	if ((com <= -1) || (kor <= -1) || (eng <= -1))
+	{
+		System.out.print("입력 오류 입니다.");
+	}
+	
+	
 	if (avg > 60 ) {
 	
 		if ( com <= 40)
@@ -49,10 +59,12 @@ public class QuizIf3 {
 		{
 			System.out.print("합격");
 		}
+		
 	}
 	else
 	{
 		System.out.print("평균점수 미달 불합격");
+		
 	}
 
 	
