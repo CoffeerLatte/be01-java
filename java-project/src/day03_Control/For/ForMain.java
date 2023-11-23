@@ -21,21 +21,25 @@ public class ForMain {
 		{
 		case "*" :
 			{
+				System.out.print("첫 번째 입력한 값: "+one+" "+"두 번째 입력한 값: "+two+" "+"입력한 연산자는 : "+three+" "+"결과는 :" );
 				System.out.println(one*two);
 				break;
 			}
 		case "+" :
 		{
+			System.out.print("첫 번째 입력한 값: "+one+" "+"두 번째 입력한 값: "+two+" "+"입력한 연산자는 : "+three+" "+"결과는 :" );
 			System.out.println(one+two);
 			break;
 		}
 		case "-" :
 		{
+			System.out.print("첫 번째 입력한 값: "+one+" "+"두 번째 입력한 값: "+two+" "+"입력한 연산자는 : "+three+" "+"결과는 :" );
 			System.out.println(one-two);
 			break;
 		}
 		case "/" :
 		{
+			System.out.print("첫 번째 입력한 값: "+one+" "+"두 번째 입력한 값: "+two+" "+"입력한 연산자는 : "+three+" "+"결과는 : " );
 			System.out.println(one/two);
 			break;
 		}
@@ -45,8 +49,9 @@ public class ForMain {
 		}
 
 		catch (Exception e) {
-			System.out.println("Exception ");
+			System.out.print("Exception ");
 			System.out.println("0으로 나눌 수 없습니다.");
+			e.printStackTrace();
 		}
 
 		}
