@@ -13,6 +13,7 @@ public class QuizEx02 {
 		for ( int i = 1; i <= 10; i++) {
 		
 			if(i%2 == 0)
+				
 			{
 				cnt = cnt + i;
 				

@@ -1,5 +1,4 @@
 package day03_Control.For;
-import java.util.*;
 
 public class QuizEx03 {
 

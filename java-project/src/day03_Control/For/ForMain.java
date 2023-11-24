@@ -1,6 +1,6 @@
 package day03_Control.For;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class ForMain {
 

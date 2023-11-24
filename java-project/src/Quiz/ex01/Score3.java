@@ -1,6 +1,6 @@
 package Quiz.ex01;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Score3 {
 

@@ -1,6 +1,6 @@
 package day04_control.While;
 
-import java.util.*;
+import java.util.Scanner;
 public class WhileInpit {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);

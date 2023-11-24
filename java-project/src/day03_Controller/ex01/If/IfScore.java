@@ -1,5 +1,5 @@
 package day03_Controller.ex01.If;
-import java.util.*;
+import java.util.Scanner;
 
 public class IfScore {
 

@@ -1,7 +1,7 @@
 // 과제 4: 3개 정수를 입력 받아서 큰 순으로 출력
 package day04_homework;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class QuizEx04 {
 
@@ -21,7 +21,12 @@ public class QuizEx04 {
 			if ((a>b && b>c))
 			{
 				System.out.println(a+" "+b+" "+c);
+			
 			}
+//			else if ((a>b && c > b))
+//			{
+//				System.out.println(a+" "+c+" "+b);
+//			}
 			else if (b>a && a>c)
 			{
 				System.out.println(b+" "+a+" "+c);
@@ -42,11 +47,30 @@ public class QuizEx04 {
 			else if (c>a&& b>a)
 			{
 			System.out.println(c+" "+b+" "+a);
+			}
+			else if (c>b&& b>a)
+			{
+			System.out.println(c+" "+b+" "+a);
+			}
+			else if (c>b&& a>b)
+			{
+			System.out.println(c+" "+a+" "+b);
+			}
+			
+			else if (b>c && c>a)
+			{
+				System.out.println(b+" "+c+" "+a);
+			}
+			else if (b>c && a>c)
+			{
+				System.out.println(b+" "+a+" "+c);
+			}
+				
 		
 			
 			
 			
 			
 		}
-}
+
 }

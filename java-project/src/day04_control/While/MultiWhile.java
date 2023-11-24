@@ -1,5 +1,5 @@
 package day04_control.While;
-import java.util.*;
+
 public class MultiWhile {
 	public static void main(String[] args) {
 		

@@ -1,5 +1,5 @@
 package day03_Control.Switch;
-import java.util.*;
+import java.util.Scanner;
 
 
 public class SwitchTest {

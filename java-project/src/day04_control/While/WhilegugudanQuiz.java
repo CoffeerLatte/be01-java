@@ -1,5 +1,5 @@
 package day04_control.While;
-import java.util.*;
+import java.util.Scanner;
 
 public class WhilegugudanQuiz {
 

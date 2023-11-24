@@ -1,6 +1,5 @@
 package day03_exception.ex01;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class FinallyMain {
