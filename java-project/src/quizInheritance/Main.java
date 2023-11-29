@@ -7,7 +7,22 @@ public class Main {
 		
 		Student st = new Student();
 		
+		
+		
+		
+		// st.dp();
+		
+		
+		System.out.println("==================");
 		st.dps();
 		
+		
+		
+		
+		
+		
+		
 	}
+
+	
 }
