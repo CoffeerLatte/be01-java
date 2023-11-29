@@ -47,7 +47,7 @@ public class QuizEx1 {
 			
 		}
 	
-public static void max() {
+public static void max1() {
 			
 			
 			Scanner sc = new Scanner(System.in);

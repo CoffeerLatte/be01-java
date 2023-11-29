@@ -10,7 +10,7 @@ System.out.println(abc());
 
 
 	}
-public statid void plus(int x, int y) {
+public static void plus(int x, int y) {
 
 	
 }
