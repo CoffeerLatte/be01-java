@@ -62,6 +62,3 @@ public class Homework8 {
 
 
 
-class cal{
-	
-}
