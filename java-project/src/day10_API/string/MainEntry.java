@@ -85,5 +85,8 @@ public class MainEntry {
 			     s2 = "encore";
 			     
 			     System.out.println(s1.hashCode()+", "+s2.hashCode());
+			     
+			     
+			     
 		}
 }
